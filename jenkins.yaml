@@ -18,7 +18,7 @@ unclassified:
           scm:
             github:
               credentialsId: "github-sa"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "ldorg"
               repository: "pipeline-library"
 globalCloudBeesPipelineTemplateCatalog:
   catalogs:
@@ -31,4 +31,4 @@ globalCloudBeesPipelineTemplateCatalog:
     updateInterval: "1h"
 
 groovy:
-  - url: https://raw.githubusercontent.com/REPLACE_GITHUB_ORG/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
+  - url: https://raw.githubusercontent.com/ldorg/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
